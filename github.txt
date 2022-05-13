@@ -1,4 +1,22 @@
 git init
+
 git add .
 git commit -m "first commit"
 git push -u origin main
+
+
+git branch (naam aanmaken)
+git checkout (naam) switch branch zonder aanmaken
+git branch -d (naam) delete
+git checkout -b (naam aanmaken, en switchen naar branch)
+
+git push -u origin (naam) 
+**om samen te voegen met main, na verbetering mag "git push" zonder de rest
+
+//gebruik squash and merge
+
+git fetch -a
+**laat wijzigingen online zien
+
+git pull
+
